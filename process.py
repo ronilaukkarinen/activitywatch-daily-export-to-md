@@ -97,7 +97,7 @@ sorted_process_times = sorted(process_times.items(), key=lambda item: item[1], r
 
 # Prepare the markdown content
 md_content = f"# ActivityWatch Summary for {today_str} ({hostname})\n\n"
-md_content += f"**Total time spent on computer**: {format_time(total_time)} hours.\n"
+md_content += f"**Total time spent on computer**: {format_time(total_time)}.\n"
 md_content += f"File saved at {datetime.now().strftime('%H:%M:%S')}.\n\n"
 md_content += "## Top 20 processes\n\n"
 
